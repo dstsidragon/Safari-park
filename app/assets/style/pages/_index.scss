@@ -1,0 +1,1015 @@
+
+/*content*/
+.content{
+    background: #EFE9E7;
+    max-width: 100%;
+}
+/*餐廳資訊*/
+.RestaurantIntroduction{
+    margin-bottom: 30px;
+}
+.RestaurantIntroduction-header{
+    background-color: #EFE9E7;
+    padding: 50px;
+    height: 400px;
+}
+.RestaurantIntroduction-border{
+    width: 50%;
+    height: 0px;
+    border: 1px solid #979797;
+    margin-left:25%;
+    margin-right: 25%;
+}
+.RestaurantIntroduction-title{
+    width: 30%;
+    margin-top: -40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 13px;
+    text-align: center;
+    background-color: #EFE9E7;
+}
+
+.RestaurantIntroduction-title p{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    font-weight: bold;
+}
+.RestaurantIntroduction-alLlist{
+    width: 100%;
+    height: auto;
+}
+.RestaurantIntroduction-list{
+    text-align: center;
+    width: 31%;
+    float: left;
+    padding:1%;
+    
+   
+}
+.RestaurantIntroduction-list::after{
+    clear: both;
+}
+.RestaurantIntroduction-list-logo{
+    width: 200px;
+    margin-bottom: 20px;
+} 
+.RestaurantIntroduction-List-title{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    color: #3D1101;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+.RestaurantIntroduction-List-content{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #3D1101;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+}
+@media(max-width:1024px){}
+@media(max-width:768px){
+    .RestaurantIntroduction{
+        margin-bottom: 50px;
+    }
+    .RestaurantIntroduction-header{
+        height: 2050px;
+    }
+    
+    .RestaurantIntroduction-border{
+        width: 80%;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    .RestaurantIntroduction-title{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+    
+    .RestaurantIntroduction-title p{
+        font-size: 38px;
+        line-height: 48px;
+
+    }
+    .RestaurantIntroduction-list{
+        text-align: center;
+        width: 98%;
+        float: left;
+        padding:1%;
+        
+       
+    }
+    .RestaurantIntroduction-list::after{
+        clear: both;
+    }
+    .RestaurantIntroduction-list-logo{
+        width: 250px;
+        margin-bottom: 60px;
+    } 
+    .RestaurantIntroduction-List-title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
+    .RestaurantIntroduction-List-content{
+        width: 70%;
+        padding-left: 15%;
+        text-indent: 56px;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+@media(max-width:414px){
+    
+    .RestaurantIntroduction{
+        margin-bottom: 50px;
+    }
+    .RestaurantIntroduction-header{
+        height: 1750px;
+    }
+    
+    .RestaurantIntroduction-border{
+        width: 110%;
+        margin-left:-6%;
+        margin-right: 0%;
+    }
+    .RestaurantIntroduction-title{
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .RestaurantIntroduction-title p{
+        font-size: 28px;
+        line-height: 34px;
+
+    }
+    .RestaurantIntroduction-list{
+        text-align: center;
+        width: 98%;
+        float: left;
+        padding:1%;
+        
+       
+    }
+    .RestaurantIntroduction-list::after{
+        clear: both;
+    }
+    .RestaurantIntroduction-list-logo{
+        width: 250px;
+        margin-bottom: 30px;
+    } 
+    .RestaurantIntroduction-List-title{
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .RestaurantIntroduction-List-content{
+        width: 90%;
+        padding-left: 5%;
+        text-indent: 56px;
+        font-size: 18px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:375px){
+    
+    .RestaurantIntroduction-header{
+        height: 1850px;
+    }
+}
+@media(max-width:320px){
+    
+    .RestaurantIntroduction{
+        margin-bottom: 50px;
+    }
+    .RestaurantIntroduction-header{
+        height: 1350px;
+    }
+    
+    .RestaurantIntroduction-border{
+        width: 130%;
+        margin-left:-14.5%;
+        margin-right: 0%;
+    }
+    .RestaurantIntroduction-title{
+        width: 100%;
+        margin-left: -5%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .RestaurantIntroduction-title p{
+        font-size: 22px;
+        line-height: 34px;
+
+    }
+
+
+    .RestaurantIntroduction-list-logo{
+        margin-bottom: 15px;
+    } 
+    .RestaurantIntroduction-List-title{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .RestaurantIntroduction-List-content{
+        width: 100%;
+        padding-left: 0%;
+        text-indent: 0px;
+        font-size: 18px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 30px;
+        overflow-x: scroll;
+        height: 140px;
+        border: navy 1px solid;
+    }
+}
+
+
+/*主廚資訊*/
+.ChefInformation{
+    background: #3D1101;
+}
+.ChefInformation-img{
+    max-width: 45%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+    
+}
+.ChefInformation-main{
+    width: 45%;
+    margin-right: 5%;
+   
+    float: right;
+    
+
+}
+.ChefInformation-main::after{
+    clear: both;
+}
+
+.ChefInformation-Title{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #EFE9E7;
+    line-height: 32px;
+    margin-top: 81px;
+}
+.ChefInformation-TitleEnglish{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #EFE9E7;
+}
+.ChefInformation-content{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #EFE9E7;
+    line-height: 24px;
+    margin-top: 16px;
+   
+}
+
+@media(max-width:768px){
+.ChefInformation-img{
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+    padding-left: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    
+}
+.ChefInformation-main{
+    width: 60%;
+    margin-right: 0%;
+    padding-left: 20%;
+    float: none;
+    text-align: center;
+    
+
+}
+
+.ChefInformation-Title{
+    font-size: 38px;
+    line-height: 56px;
+    margin-top: 60px;
+    
+}
+.ChefInformation-TitleEnglish{
+    font-size: 24px;
+}
+.ChefInformation-content{
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 16px;
+    text-indent: 36px;
+    padding-bottom: 20px;
+   
+}
+}
+@media(max-width:414px){
+.ChefInformation{
+    height: 650px;
+}
+.ChefInformation-img{
+    max-width: 80%;
+    padding-left: 10%;
+}
+.ChefInformation-main{
+    width: 90%;
+    margin-right: 0%;
+    padding-left: 5%;
+}
+
+.ChefInformation-Title{
+    font-size: 28px;
+    line-height: 56px;
+    margin-top: 15px;
+    
+}
+.ChefInformation-TitleEnglish{
+    font-size: 24px;
+}
+.ChefInformation-content{
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 16px;
+    text-indent: 36px;
+    padding-bottom: 20px;
+    overflow: scroll;
+    height: 150px;
+    border: white 1px solid;
+   
+}
+}
+@media(max-width:375px){
+
+.ChefInformation{
+    height: 600px;
+}
+.ChefInformation-Title{
+    font-size: 28px;
+    line-height: 56px;
+    margin-top: 15px;
+    
+}
+.ChefInformation-TitleEnglish{
+    font-size: 24px;
+}
+.ChefInformation-content{
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 16px;
+    text-indent: 36px;
+
+    height: 150px;
+    border: white 1px solid;
+   
+}
+}
+@media(max-width:320px){}
+
+/*客戶評價*/
+.Guestreviews{
+    background:#EFE9E7;
+    padding: 5%;
+    height: auto;
+}
+
+.Guestreviews-Title{
+    font-family: 微軟正黑體;
+    font-size: 24px;
+    color: #3D1101;
+    text-align: center;
+    background:#EFE9E7;
+    font-weight: bold;
+}
+.Guestreviews-allList{
+    height: 250px;
+    
+}
+.Guestreviews-List{
+    width: 31%;
+    float: left;
+    padding: 1%;
+}
+
+.Guestreviews-List-Logo{
+    max-width: 67px;
+    float: left;
+    margin-top: 32px;
+    margin-right:13px;
+}
+.Guestreviews-List-name{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    color: #3D1101;
+    margin-top: 51px;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+.Guestreviews-List-content{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #3D1101;
+    line-height: 24px;
+    margin-left: 80px;
+    font-weight: bold;
+    
+}
+.Guestreviews-List-mark{
+    margin-left: 200px;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: rgba(61,17,0,0.75);
+    line-height: 24px;
+    
+}
+
+@media(max-width:1024px){}
+@media(max-width:768px){
+    
+.Guestreviews-Title{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.Guestreviews-allList{
+    height: 560px;
+    
+}
+.Guestreviews-List{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    border-bottom:gray 1px solid ;
+}
+
+.Guestreviews-List-Logo{
+    max-width: 90px;
+    margin-top: 32px;
+    margin-right:13px;
+    
+}
+.Guestreviews-List-name{
+    font-size: 28px;
+    margin-top: 40px;
+}
+.Guestreviews-List-content{
+    font-size: 20px;
+    line-height: 30px;
+
+    
+}
+.Guestreviews-List-mark{
+    margin-left: 450px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+}
+@media(max-width:414px){
+    
+.Guestreviews-Title{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.Guestreviews-allList{
+    height: 720px;
+    
+}
+.Guestreviews-List{
+    width: 98%;
+    padding: 1%;
+}
+
+.Guestreviews-List-Logo{
+    max-width: 90px;
+    margin-top: 32px;
+    margin-right:13px;
+    
+}
+.Guestreviews-List-name{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.Guestreviews-List-content{
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 100px;
+    
+}
+.Guestreviews-List-mark{
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+}
+@media(max-width:375px){
+    
+.Guestreviews-Title{
+    font-size: 26px;
+}
+.Guestreviews-allList{
+    height: 805px;
+    
+}
+
+.Guestreviews-List-name{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+}
+@media(max-width:320px){
+    .Guestreviews-Title{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .Guestreviews-allList{
+        height: 865px;
+        
+    }
+    .Guestreviews-List{
+        width: 98%;
+        padding: 1%;
+    }
+    
+    .Guestreviews-List-Logo{
+        max-width: 90px;
+        margin-top: 32px;
+        margin-right:13px;
+        
+    }
+    .Guestreviews-List-name{
+        font-size: 22px;
+        margin-top: 60px;
+    }
+    .Guestreviews-List-content{
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: 0px;
+        margin-top: 50px;
+        text-indent: 40px;
+        
+    }
+    .Guestreviews-List-mark{
+        margin-left: 150px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    
+}
+
+/*預約訂位*/
+
+.ReservationInformation{
+    padding: 50px 42px;
+    background: #FAFAFA;
+    
+}
+.ReservationInformation-Title{
+    text-align:center ;
+    font-family: 微軟正黑體;
+    margin-bottom: 38px;
+    font-size: 24px;
+    color: #3D1101;
+    font-weight: bold;
+}
+.ReservationInformation-map{
+    width: 460px;
+    
+}
+.ReservationInformation-reserve{
+    width: 430px;
+    float: right;
+    margin-top: -390px;
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #3D1101;
+}
+.ReservationInformation-reserve-label{
+    margin-bottom: 20px;
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #3D1101;
+    font-weight: bold;
+    
+}
+
+.ReservationInformation-reserve-name{
+    width: 430px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+.ReservationInformation-reserve-tel{
+    width: 430px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+.ReservationInformation-reserve-mail{
+    width: 430px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+.ReservationInformation-reserve-amount{
+    width: 430px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.ReservationInformation-reserve-vfood{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px; 
+    
+}
+
+
+.ReservationInformation-cance{
+    width: 70px;
+    height: 32px;
+    margin-left: 100px;
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.ReservationInformation-cance:hover{
+    background-color: violet;
+}
+
+.ReservationInformation-send{
+    width: 70px;
+    height: 32px;
+    margin-left: 100px;
+    background: #F56C23;
+    border-radius: 3px;
+    font-family:微軟正黑體;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.ReservationInformation-send:hover{
+    background-color: violet;
+}
+
+@media(max-width:768px){
+    
+.ReservationInformation{
+    padding: 50px 42px;
+    
+}
+.ReservationInformation-Title{
+    margin-bottom: 38px;
+    font-size: 34px;
+}
+.ReservationInformation-map{
+    width: 60%;
+    padding-left: 20%;
+    margin-bottom: 10px;
+    
+}
+.ReservationInformation-reserve{
+    width: 60%;
+    padding-left: 20%;
+    float: none;
+    margin-top: 0;
+    font-size: 20px;
+}
+.ReservationInformation-reserve p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ReservationInformation-reserve-name{
+    width: 380px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.ReservationInformation-reserve-tel{
+    width: 380px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+}
+.ReservationInformation-reserve-mail{
+    width: 385px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+}
+.ReservationInformation-reserve-amount{
+    width: 385px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-bottom: 17px;
+    
+}
+
+.ReservationInformation-reserve-vfood{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.ReservationInformation-cance{
+    width: 160px;
+    height: 32px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ReservationInformation-send{
+    width: 160px;
+    height: 32px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+}
+@media(max-width:414px){
+    
+.ReservationInformation{
+    padding: 25px 21px;
+    
+}
+.ReservationInformation-Title{
+    margin-bottom: 28px;
+    font-size: 28px;
+}
+.ReservationInformation-map{
+    width: 90%;
+    padding-left: 5%;
+    margin-bottom: 10px;
+    
+}
+.ReservationInformation-reserve{
+    width: 90%;
+    padding-left: 25%;
+    float: none;
+    margin-top: 0;
+    font-size: 20px;
+}
+.ReservationInformation-reserve p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ReservationInformation-reserve-name{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ReservationInformation-reserve-tel{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.ReservationInformation-reserve-mail{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.ReservationInformation-reserve-amount{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 17px; 
+}
+
+
+.ReservationInformation-reserve-vfood{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.ReservationInformation-cance{
+    width: 120px;
+    height: 32px;
+    margin-top: 40px;
+    margin-left: -60px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ReservationInformation-send{
+    width: 120px;
+    height: 32px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+}
+@media(max-width:375px){
+        
+.ReservationInformation{
+    padding: 20px 15px;
+    
+}
+.ReservationInformation-Title{
+    margin-bottom: 28px;
+    font-size: 26px;
+}
+.ReservationInformation-map{
+    width: 90%;
+    padding-left: 5%;
+    margin-bottom: 10px;
+    
+}
+.ReservationInformation-reserve{
+    width: 90%;
+    padding-left:10%;
+    float: none;
+    margin-top: 0;
+    font-size: 20px;
+}
+.ReservationInformation-reserve p{
+    margin-bottom: 22px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.ReservationInformation-reserve-name{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left:30px;
+}
+.ReservationInformation-reserve-tel{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.ReservationInformation-reserve-mail{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.ReservationInformation-reserve-amount{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px; 
+    margin-left: 30px;
+}
+
+
+.ReservationInformation-reserve-vfood{
+    font-size: 20px;
+    margin-right: 36px;
+    margin-left: 40px;
+}
+.ReservationInformation-cance{
+    width: 120px;
+    height: 32px;
+    margin-top: 40px;
+    margin-left: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ReservationInformation-send{
+    width: 120px;
+    height: 32px;
+    margin-left: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+}
+@media(max-width:320px){
+    .ReservationInformation{
+        padding: 10px 5px;
+        
+    }
+    .ReservationInformation-Title{
+        margin-bottom: 22px;
+        font-size: 26px;
+    }
+    .ReservationInformation-map{
+        width: 90%;
+        padding-left: 5%;
+        margin-bottom: 10px;
+        
+    }
+    .ReservationInformation-reserve{
+        width: 90%;
+        padding-left: 10%;
+        float: none;
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .ReservationInformation-reserve p{
+        margin-bottom: 17px;
+        font-size: 18px;
+    }
+   
+    .ReservationInformation-reserve-name{
+        width: 200px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .ReservationInformation-reserve-tel{
+        width: 200px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .ReservationInformation-reserve-mail{
+        width: 200px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .ReservationInformation-reserve-amount{
+        width: 200px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: 20px; 
+    }
+ 
+    
+    .ReservationInformation-reserve-vfood{
+        font-size: 20px;
+        margin-right: 36px;
+    }
+    .ReservationInformation-cance{
+        width: 100px;
+        height: 32px;
+        margin-top: 40px;
+        margin-left: 0px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .ReservationInformation-send{
+        width: 100px;
+        height: 32px;
+        margin-left: 35px;
+        font-size: 20px;
+        border-radius: 18px;
+    }
+    
+}

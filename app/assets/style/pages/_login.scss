@@ -1,0 +1,870 @@
+
+
+/* LOGIN.html 登入頁面 */
+.content-login{
+    background: white;
+    margin-bottom: 250px;
+}
+.logincontent{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.logincontent-title{
+    font-family: 微軟正黑體;
+    font-size: 48px;
+    color: #3D1101;
+    font-weight: bold;
+}
+.logincontent-content{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.login{
+    border-top:#F56C23 solid 2px ;
+    width: 300px;
+    height: 273px;
+    margin-left: 362px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    padding:5px;
+    position: relative;
+}
+.login-title{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    color: #3D1101;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.loginaccountIMG{
+    position: absolute;
+    left: 30px;
+    top:73px;
+}
+.account{
+    width: 270px;
+    height: 32px;
+    margin-top: 2%;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    
+    text-align: center;
+}
+.loginpasswordsIMG{
+    position: absolute;
+    left: 30px;
+    top:148px;
+}
+.passwords{
+    width: 270px;
+    height: 32px;
+    margin-top: 2%;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.login-forget{
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #FF5E45;
+}
+
+.login-contet{
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: #3D1101;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 12px; 
+    
+}
+.login-forget{
+    width: 70px;
+    margin-left: -190px;
+}
+.RegisterAccount{
+    width: 125px;
+    height: 32px;
+    font-family: PingFangTC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.35);
+    border-radius: 25px;
+    margin-top: 36px;
+    margin-right: 20px;
+    /*讓鼠標變樣式*/
+    cursor: pointer;
+}
+.RegisterAccount:hover{
+    background-color: violet;
+}
+.LoginAccount{
+    width: 125px;
+    height: 32px;
+    font-family: PingFangTC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F56C23;
+    border-radius: 25px;
+    /*讓鼠標變樣式*/
+    cursor: pointer;
+}
+.LoginAccount:hover{
+    background-color: violet;
+}
+
+@media(max-width:768px){
+    .content{
+        margin-bottom: 150px;
+    }
+    .content-login{
+        background: white;
+        margin-bottom: 20px;
+    }
+    .logincontent{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .logincontent-title{
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+    .logincontent-content{
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    
+    .login{
+
+        width: 500px;
+        height: 600px;
+        margin-left: 115px;
+        padding:5px;
+    }
+    .login-title{
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .login-contet{
+        font-size: 24px;
+        margin-bottom: 3px;
+        margin-left: 12px; 
+        
+    }
+    .loginaccountIMG{
+        position: absolute;
+        left: 50px;
+        top:122px;
+        width: 30px;
+        margin-bottom: 35px;
+    }
+    .account{
+        width: 450px;
+        height: 60px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 24px;
+    }
+    .loginpasswordsIMG{
+        position: absolute;
+        left: 50px;
+        top:255px;
+        width: 30px;
+        margin-bottom: 35px;
+    }
+    .passwords{
+        width: 450px;
+        height: 60px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 24px;
+        
+    }
+    .login-forget{
+        font-size: 20px;
+    }
+    
+    
+    .login-forget{
+        width: 70px;
+        margin-left: -250px;
+    }
+    .RegisterAccount{
+        width: 160px;
+        height: 60px;
+        font-size: 24px;
+        color: #FFFFFF;
+        border-radius: 25px;
+        margin-top: 36px;
+        margin-right: 20px;
+        
+    }
+    .LoginAccount{
+        width: 160px;
+        height: 60px;
+        font-size: 24px;
+        color: #FFFFFF;
+        border-radius: 25px;
+    }
+}
+@media(max-width:414px){
+    .content{
+        margin-bottom: 50px;
+    }
+    .logincontent{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .logincontent-title{
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    .logincontent-content{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+    .login{
+
+        width: 300px;
+        height: 400px;
+        margin-left: 40px;
+        padding:5px;
+    }
+    .login-title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .login-contet{
+        font-size: 20px;
+        margin-bottom: 3px;
+        margin-left: 12px; 
+        
+    }
+    .loginaccountIMG{
+        left: 30px;
+        top:77px;
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .account{
+        width: 270px;
+        height: 30px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    .loginpasswordsIMG{
+        left:30px;
+        top:175px;
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .passwords{
+        width: 270px;
+        height: 30px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 16px;
+        
+    }
+    .login-forget{
+        font-size: 16px;
+       
+    }
+    
+    
+    .login-forget{
+        width: 70px;
+        margin-left: -180px;
+    }
+    .RegisterAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 25px;
+        margin-top: 36px;
+        margin-right: 20px;
+        
+    }
+    .LoginAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+
+    }
+}
+@media(max-width:375px){
+    .content{
+        margin-bottom: 0px;
+    }
+    .logincontent{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .logincontent-title{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .logincontent-content{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .login{
+        width: 300px;
+        height: 380px;
+        margin-left: 25px;
+        padding:5px;
+    }
+    .login-title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .login-contet{
+        font-size: 20px;
+        margin-bottom: 3px;
+        margin-left: 12px; 
+        
+    }
+    .loginaccountIMG{
+        left: 35px;
+        top:75px;
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .account{
+        width: 250px;
+        height: 30px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    .loginpasswordsIMG{
+        left:35px;
+        top:170px;
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .passwords{
+        width: 250px;
+        height: 30px;
+        margin-bottom: 35px;
+        border-radius: 3px;
+        font-size: 16px;
+        
+    }
+    .login-forget{
+        font-size: 16px;
+    }
+    
+    
+    .login-forget{
+        width: 70px;
+        margin-left: -180px;
+    }
+    .RegisterAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 25px;
+        margin-top: 36px;
+        margin-right: 20px;
+        
+    }
+    .LoginAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+
+    }
+}
+@media(max-width:320px){
+    .content{
+        margin-bottom: 0px;
+    }
+    .logincontent{
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .logincontent-title{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .logincontent-content{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .login{
+        width: 280px;
+        height: 350px;
+        margin-left: 14px;
+        padding:5px;
+    }
+    .login-title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .login-contet{
+        font-size: 20px;
+        margin-bottom: 3px;
+        margin-left: 12px; 
+        
+    }
+    .loginaccountIMG{
+        left:30px;
+        top:75px;
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .account{
+        width: 250px;
+        height: 30px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+    .loginpasswordsIMG{
+        left: 30px;
+        top:150px;
+        width: 20px;;
+        margin-bottom: 15px;
+    }
+    .passwords{
+        width: 250px;
+        height: 30px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+    .login-forget{
+        font-size: 16px;
+    }
+    
+    
+    .login-forget{
+        width: 70px;
+        margin-left: -180px;
+    }
+    .RegisterAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 25px;
+        margin-top: 36px;
+        margin-right: 20px;
+        
+    }
+    .LoginAccount{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+
+    }
+}
+
+/*註冊頁面*/
+.Registerform{
+    width: 620px;
+    margin:auto;
+    background-color: #EFE9E7;
+    height: 420px;
+}
+.Register{
+    width: 590px;
+    margin-left: 0px;
+    border-top:#F56C23 solid 2px ;
+    padding: 15px;
+}
+.Register-title{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    color: #3D1101;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.RegisterRule-content{
+    background:white;
+    width: 275px;
+    float: left;
+    margin-right: 20px;
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3D1101; 
+    text-align: left;
+    font-weight: bold;
+    overflow: scroll;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 300px;
+}
+.Registerinf{
+    width: 285px;
+    float: left;
+}
+.RegisterRule-title{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-align: left;
+}
+.Register-contet{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -50px;
+   
+}
+.RegisteraccountIMG{
+    position: relative;
+    top:30px;
+    left:-120px;
+}
+.Registeraccount{
+    width: 285px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.RegisterpasswordsIMG{
+    position: relative;
+    top:30px;
+    left:-120px;
+}
+.Registerpasswords{
+    width: 285px;
+    height: 32px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    text-align: center;
+}
+.Registerpasswords2{
+    width: 285px;
+    height: 32px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    text-align: center;
+}
+.Register-haven{
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #FF5E45;
+    margin-left: -190px;
+   
+    
+}
+.RegisterAccountbtn{
+    width: 125px;
+    height: 32px;
+    font-family: PingFangTC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F56C23;
+    border-radius: 25px;
+  
+    margin-top: 20px;
+}
+
+.RegisterAccountbtn:hover{
+    background-color: violet;
+}
+
+
+@media(max-width:768px){
+    
+.Registerform{
+    width: 620px;
+    height: 420px;
+}
+.Register{
+    width: 590px;
+    margin-left: 0px;
+    padding: 15px;
+}
+.Register-title{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.RegisterRule-content{
+    width: 265px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    height: 300px;
+}
+.Registerinf{
+    width: 285px;
+}
+.RegisterRule-title{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-align: left;
+}
+.Register-contet{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -50px;
+   
+}
+.RegisteraccountIMG{
+    position: relative;
+    top:30px;
+    left:-120px;
+}
+.Registeraccount{
+    width: 285px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.RegisterpasswordsIMG{
+    position: relative;
+    top:30px;
+    left:-120px;
+}
+.Registerpasswords{
+    width: 285px;
+    height: 32px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    text-align: center;
+}
+.Registerpasswords2{
+    width: 285px;
+    height: 32px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    text-align: center;
+}
+.Register-haven{
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    color: #FF5E45;
+    margin-left: -190px;
+   
+    
+}
+.RegisterAccountbtn{
+    width: 125px;
+    height: 32px;
+    font-family: PingFangTC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F56C23;
+    border-radius: 3px;
+  
+    margin-top: 20px;
+}
+}
+@media(max-width:414px){
+    .content-register{
+        margin-bottom: 50px;
+        
+    }
+    .Registerform{
+        width: 400px;
+        height: 600px;
+    }
+    .Register{   
+        width: 400px;
+        height: 316px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .Register-title{
+        padding-top: 10px;
+        font-size: 26px;
+        margin-bottom: 16px;
+        
+    }
+    .RegisterRule-title{
+        padding-left: 10px;
+    }
+    
+    .RegisterRule-content{
+        width: 360px;
+        margin-right: 0px;
+        font-size: 18px;
+        line-height: 36px;
+        height: 100px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 60px;
+    }
+    .Registerinf{
+        width: 285px;
+        padding-left: 10px;
+    }
+    .Register-contet{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 3px;
+    }
+    .RegisteraccountIMG{
+        position: relative;
+        top:30px;
+        left:-120px;
+    }
+    .Registeraccount{
+        width: 320px;
+        height: 32px;
+        font-size: 18px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+    }
+    .RegisterpasswordsIMG{
+        position: relative;
+        top:30px;
+        left:-120px;
+    }
+    .Registerpasswords{
+        width: 320px;
+        height: 32px;
+        font-size: 18px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+    }
+    
+    .Registerpasswords2{
+        width: 320px;
+        height: 32px;
+        font-size: 18px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+    }
+    .Register-haven{
+        font-family: 微軟正黑體;
+        font-size: 14px;
+        color: #FF5E45;
+        margin-left: -190px;
+        
+    }
+    .RegisterAccountbtn{
+        width: 100px;
+        height: 32px;
+        font-family: PingFangTC-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #F56C23;
+        border-radius: 3px;
+        margin-left: 160px;
+    }
+}
+@media(max-width:375px){
+    .content-register{
+        margin-bottom: 50px;
+        
+    }
+    .Registerform{
+        width: 360px;
+        height: 600px;
+    }
+    .Register{   
+        width: 360px;
+        height: 316px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+   
+    .RegisterRule-content{
+        width: 320px;
+
+    }
+}
+@media(max-width:320px){
+    .content-register{
+        margin-bottom: 50px;
+        
+    }
+    .Registerform{
+        width: 300px;
+        height: 600px;
+    }
+    .Register{   
+        width: 300px;
+        height: 316px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+   
+    .RegisterRule-content{
+        width: 260px;
+
+    }
+
+    .Registeraccount{
+        width: 280px;
+        height: 32px;
+        font-size: 14px;
+
+    }
+
+    .Registerpasswords{
+        width: 280px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .Registerpasswords2{
+        width: 280px;
+        height: 32px;
+        font-size: 14px;
+    }
+}
